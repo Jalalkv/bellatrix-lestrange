@@ -34,3 +34,5 @@ y-Variable(yes, No)
 
 ![bild_2](bild_2.JPG)
 - we will check if the houeholdsize 8 and 9 (only 1 row) stays in the dataset. Because if we normalize/encode the features, the influence of the bothe rows withe the householdsize 8 and 9 have a big influence of the new interval.
+
+- Result of handling the outliers and household_size: The household_size is not a outliers. This amount stays in the datset after reove the outliers. Additionally to that, it is easier to remove the outliers from the columsn q1_balance to q4_balance that to remove the outliers only from the column average_column. So we have to drop the single row for houehold_size8.
